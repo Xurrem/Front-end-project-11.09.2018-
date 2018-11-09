@@ -1,0 +1,403 @@
+/**
+ *
+ * Responsive Styles For Chiropractor Template
+ *
+ * This File have all responsive CSS
+ */
+
+/*All Reponsive Code Goes here*/
+	
+	
+	
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+	
+	/** General CSS **/
+	.main-container {
+		width:100%;
+		overflow:hidden;
+	}
+	.title-section {
+		margin-top:-65px;
+	}
+	.title-section h1 {
+		font-size:2.3rem;
+	}
+	.post-text ,
+	.service-text ,
+	.featured-text {
+		padding-left:15px;
+		padding-right:15px;
+    }
+	/* Inner Pags */
+	
+	/*About Us*/
+	.welcome-text .info-box h3 {
+		font-size:1.25rem;
+	}
+	.welcome-text .info-box p {
+	    width: calc(100% - 100px);
+	}
+	.welcome-img img {
+		position:relative;
+		display:block;
+		margin-bottom:-115px;
+	}
+	.contact-sidebar {
+		text-align:center;
+	}
+	.news-text,
+	.single-blog-page .post-text,
+	.blog-page .post-text {
+		text-align:center;
+	}
+	/* Inner Pags Ends */
+	
+	/* Top Bar */
+	.left-topBar ul {
+		display:inline-block;
+	}
+	.left-topBar,
+	.right-topBar {
+		text-align:center;
+		padding:0;
+	}
+	.right-topBar .social-icons {
+    	float: none;
+    	display: inline-flex;
+	}
+	.topBar .left-topBar li {
+		padding-top:5px;
+    	padding-bottom:5px;
+	
+	}
+	.topBar .grid-container .cell:first-child {
+		padding-bottom:0;
+	}
+	.topBar .left-topBar li {
+		margin-right:0;
+	}
+	.dropdown.menu>li a {
+		border-bottom: 1px solid #777777;
+		line-height: normal;
+	}
+	
+	/* header-wrap */
+	.header-wrap {
+		text-align: center;
+		background-color: #444444;
+		padding: 15px 0px;
+	}
+	.header-wrap .top-bar {
+		float:none !important;
+	}
+	.top-bar-title {
+		margin:auto;
+	}
+	.top-bar nav {
+    	width:100%;
+    	margin-top:25px;
+	}
+	.top-bar .large-horizontal.dropdown .single-sub:first-child .nav-border {
+		padding-left:24px;
+	}
+	nav ul.menu.dropdown li:last-child a {
+    	padding-right:24px;
+	}
+	.top-bar ul ul {
+		position:relative;
+	}
+	.menu-icon.dark::after {
+    	background: #ffffff;
+    	box-shadow: 0 7px 0 #ffffff, 0 14px 0 #ffffff;
+    }
+	/* Main Banner */
+	
+	.slide.transparent-background {
+		margin-bottom:105px;
+	}
+	.banner-container {
+		background-color:#f8f8f8;
+		margin-top:0;
+	}
+	.slide-text h2 {
+		font-size:2.5rem;
+		margin-top:0;
+	}
+	.slide-text {
+		padding:150px .625rem;
+	}
+	.main-banner .slide-text p {
+		padding:0;
+		font-size:1rem;
+		line-height:1.6;
+	}
+	
+	
+	/* Featured Boxes */
+	.featured-boxes {
+		margin-top:0;
+	}
+	
+	/*About Section*/
+	.about-text-right ,
+	.about-text-left {
+		text-align:center;
+	}
+	.about-text-left h2 {
+		font-size:1.875rem;
+		margin-bottom:20px;
+	}
+	.about-text p {
+		font-size:0.75rem;
+	}
+	
+	/* Testimonials */
+	.testimonial-text i {
+		font-size: 1.75rem;
+	}
+	.testimonial-text {
+		padding:0;
+	}
+	
+	/* Why Chose Us */
+	.gallery-thumb {
+		max-width:49%;
+	}
+	.accordion-title,
+	.accordion-title::before {
+    	font-size:1rem;
+	}
+	
+	/* Blog */
+	.post-text h2 {
+	    margin-bottom: 15px;
+	}
+	
+	/* Call To Action */
+	.call-to-action-text h2 {
+    	font-size:2rem;
+	}
+	.call-to-action-text p ,
+	.call-to-action-text {
+		padding:0;
+	}
+	.call-to-action-text a {
+		padding:18px 22px; 
+	}
+	
+	/* Footer */
+	
+	.footer-bottom .cell:first-child {
+		padding-bottom:0;
+	}
+	.footer-bottom-nav ul ,
+	.copyrightinfo {
+		text-align:center;
+	}
+	.footer-bottom-nav ul li a {
+    	padding: 10px 10px;
+	}
+	.footer-bottom-nav ul {
+		float:none;
+		display: block;
+	}
+	.footer-bottom-nav ul li {
+		display:inline-table;
+	}
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+	
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+	
+	/** General CSS **/
+	.grid-x .cell {
+		margin:0 auto;
+	}
+	
+	/* Inner Pags */
+	
+	/*About Us*/
+	.welcome-img img {
+		position:relative;
+		display:block;
+		margin:auto;
+		margin-bottom:-120px;
+	}
+	.widget-content .popular-post p {
+		float:none;
+		width: calc(100% - 0px);
+	}
+	.widget-content .popular-post img {
+		float: none;
+    	width: 100%;
+		margin-right:0;
+	}
+	/* Inner Pags Ends */
+	
+	/* Top Bar */
+	.topBar .left-topBar li {
+		margin-right:10px;
+	}
+	.left-topBar a ,
+	.left-topBar li {
+		font-size:0.8125rem;
+	}
+	/* header-wrap */
+	.menu-icon.dark::after {
+    	background: #ffffff;
+    	box-shadow: 0 7px 0 #ffffff, 0 14px 0 #ffffff;
+	}
+	.is-dropdown-submenu.js-dropdown-active {
+		display: block;
+		padding:0 30px;
+	}
+	.top-bar nav {
+    	width:100%;
+    	margin-top:25px;
+	}
+	.top-bar .large-horizontal.dropdown .single-sub:first-child .nav-border {
+		padding-left:24px;
+	}
+	nav ul.menu.dropdown li:last-child a {
+    	padding-right:24px;
+	}
+	.top-bar ul ul {
+		position:relative;
+	}
+	.top-bar nav {
+		position: absolute;
+		top:70px;
+		left: 0px;
+		width: 100%;
+		background: rgba(68, 68, 68, 0.9);
+	}
+	.header-wrap .dropdown.menu>li a {
+		border-bottom: 1px solid #777777;
+		line-height: normal;
+	}
+	
+	/* Main Banner */
+	.slide-text {
+    	padding: 275px 30px;
+    }
+	.slide-text h2 {
+		margin-top:0;
+		font-size:3.875rem;
+	}
+	.main-banner .slide-text p {
+		padding:0;
+	}
+	
+	/* Featured Boxes */
+	.featured-text {
+		padding:40px 15px;
+	}
+	.featured-text h3 a {
+		font-size:1.125rem;
+	}
+	
+	/* About Section */
+	.about-text-left h2 {
+    	font-size: 1.625rem;
+    }
+	.about-text-left a {
+		padding:15px 24px;
+	}
+	/* testimonials  */
+	.testimonial-text {
+		padding:0px 15px;
+	}
+	
+	/* Why Chose Us */
+	.accordion-title,
+	.accordion-title::before {
+    	font-size:1rem;
+	}
+	.accordion-title {
+		padding: 16px 16px;
+	}
+	.accordion-content {
+    	font-size:0.875rem;
+	}
+	.gallery-thumb {
+	    max-width: 33%;
+	}
+	
+	
+	/* Blog Section */
+	.post-text {
+    	text-align: center;
+    	padding: 28px 20px;
+	}
+	
+	/* Call To Action */
+	.call-to-action-text {
+    	padding:0px 15px;
+	}
+	.footer-bottom-nav ul ,
+	.copyrightinfo {
+		text-align:center;
+	}
+	.footer-bottom-nav ul {
+		float:none;
+		display: block;
+	}
+	.footer-bottom-nav ul li {
+		display:inline-table;
+	}
+}
+
+/* small tab */
+@media screen and (min-width: 40em) and (max-width: 49.938em) {
+	
+	/** General CSS **/
+	.cell.medium-sidebar {
+		width:100%;
+	}
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+	
+	.widget-content .popular-post p {
+		float:none;
+		width: calc(100% - 0px);
+	}
+	.widget-content .popular-post img {
+		float: none;
+    	width: 100%;
+		margin-right:0;
+	}
+	.header-wrap .dropdown.menu.medium-horizontal>li.is-dropdown-submenu-parent>a ,
+	.header-wrap .dropdown.menu li a {
+		padding:9px 9px !important;
+	}
+	.main-banner .slide-text p {
+		padding:0px 100px;
+	}
+	.slide-text h2 {
+		margin-top:0;
+	}
+	.testimonial-text {
+		padding:0px 106px;
+	}
+	.call-to-action-text {
+		padding:0px 0px;
+	}
+}
+
+/* Large only */
+@media screen and (min-width:75em) and (max-width: 106em) {
+}
